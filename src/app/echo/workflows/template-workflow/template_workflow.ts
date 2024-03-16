@@ -7,7 +7,7 @@ export function setup_template_workflow(echo: Echo) {
         async ({ step, payload }) => {
             const email = await step.email(
                 "email-step",
-                async (inputs) => {
+                async (inputs: { name: string; }) => {
                     return {
                         body: "its a body " + inputs.name + " Payload: " + payload.post_id,
                         subject: "Test Subject ",
@@ -25,7 +25,7 @@ export function setup_template_workflow(echo: Echo) {
 
             await step.push(
                 "push-step",
-                async (inputs) => {
+                async (inputs: { name: string; }) => {
                     return {
                         body: "its a body " + inputs.name,
                         subject: "Test Subject ",
@@ -44,7 +44,7 @@ export function setup_template_workflow(echo: Echo) {
 
             await step.sms(
                 "sms-step",
-                async (inputs) => {
+                async (inputs: { name: string; }) => {
                     return {
                         body: "its a body " + inputs.name,
                     };
@@ -62,7 +62,7 @@ export function setup_template_workflow(echo: Echo) {
 
             await step.inApp(
                 "inapp-step",
-                async (inputs) => {
+                async (inputs: { name: string; }) => {
                     return {
                         body: "ayy" + inputs.name,
                     };
@@ -80,7 +80,7 @@ export function setup_template_workflow(echo: Echo) {
 
             await step.chat(
                 "chat-step",
-                async (inputs) => {
+                async (inputs: { name: string; }) => {
                     return {
                         body: "its a body " + inputs.name,
                     };
