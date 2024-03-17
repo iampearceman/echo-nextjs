@@ -3,13 +3,15 @@
 ![Echo](https://github.com/iampearceman/echo-nextjs/assets/63902456/48a44047-b732-4f86-a0aa-31a19d9b0215)
 
 Powered by Novu
-</div>
 
 **Echo is currently in Private Alpha mode, and API’s and interfaces are subject to change.**
 
+</div>
+
+
 ## Table of Contents
 
-- [Getting Started](#getting-started)
+- [What is Echo?](#what-is-echo?)
 - [Usage](#usage)
   - [Run the website](#run-the-website)
   - [Build the website](#build-the-website)
@@ -21,28 +23,41 @@ Powered by Novu
   - [Prettier](#prettier)
   - [VS Code](#vs-code)
 
-Novu Echo is a notification workflow API-based builder for developers by Novu. 
-Rather than being limited to Novu’s predefined connectors, Echo allows you to utilize your existing environment, including libraries and VPC connections during workflow execution.
-
 ### What is Echo?
 
-The Echo SDK exposes an API client, allowing you to serve workflows and steps via HTTP. Novu Cloud communicates with your edge server via HTTP requests, facilitating real-time resolution of content and subscribers.
+Novu Echo is a notification workflow API-based builder for developers by Novu.
+Rather than being limited to Novu’s predefined connectors, Echo allows you to utilize your existing environment, including libraries and VPC connections during workflow execution.
+
+The Echo SDK exposes an API client, allowing you to serve workflows and steps via HTTP. 
+Novu Cloud communicates with your edge server via HTTP requests, facilitating real-time resolution of content and subscribers.
 
 ### Core Features:
 
-- Content Management: Create and manage content using any framework like: React Email, MJML, or a third party CMS (Wordpress, Hubspot, etc…).
+- **Content Management:**
+Create and manage content using any framework like: 
+React Email, MJML, or a third party CMS (Wordpress, Hubspot, etc…).
 
-- GitOps for Notifications: Define your Notification Workflows in code, and manage them using GitOps. This enables you to version control your Notification Workflows, and collaborate with your team.
+- **GitOps for Notifications:**
+Define your Notification Workflows in code, and manage them using GitOps. 
+This enables you to version control your Notification Workflows, and collaborate with your team.
 
-- Durable step execution: Workflow state and execution are managed by the Novu Platform, Echo restores and hydrates the Workflow state each time your Echo Client is invoked by Novu. Echo handles the hard problems in Notifications for you.
+- **Durable step execution:**
+Workflow state and execution are managed by the Novu Platform, Echo restores and hydrates the Workflow state each time your Echo Client is invoked by Novu. 
+Echo handles the hard problems in Notifications for you.
 
-- Idiomatic: Echo is designed with idiomatic programming practices in mind, making integration with your existing languages a seamless experience.
+- **Idiomatic:** 
+Echo is designed with idiomatic programming practices in mind, making integration with your existing languages a seamless experience.
 
-- Type-safe & Schematised validation: Bring your own schemas for full, end-to-end validation and type safety between your application and Novu. JSON Schema provides the interoperability layer between developers and component consumers, creating a contract for content management.
+- **Type-safe & Schematised validation:**
+Bring your own schemas for full, end-to-end validation and type safety between your application and Novu.
+JSON Schema provides the interoperability layer between developers and component consumers, creating a contract for content management.
 
-- Framework agnostic: The Echo API client is designed to run with your favourite Web framework. We currently support NextJS and Express, with more coming soon.
+- **Framework agnostic:**
+The Echo API client is designed to run with your favourite Web framework. 
+We currently support NextJS and Express, with more coming soon.
 
-- "Bring Your Own Code": Echo integrates with your existing codebase. Natively connect your database, APIs, and more directly into your Echo workflows. The possibilities are limitless.
+- **"Bring Your Own Code":**
+Echo integrates with your existing codebase. Natively connect your database, APIs, and more directly into your Echo workflows. The possibilities are limitless.
 
 ### How it Works:
 
