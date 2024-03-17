@@ -144,7 +144,7 @@ https://tidy-teeth-judge.loca.lt/api/echo = https://localhost:3000/api/echo
 
 7. Click on "Deploy Changes"
 
-Now your locally developed workflows should appear in the workflows tab in Novu Cloud.
+    **Now your locally developed workflows should appear in the workflows tab in Novu Cloud.**
 
 ### Contributing:
 
