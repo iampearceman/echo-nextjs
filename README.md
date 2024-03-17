@@ -72,7 +72,7 @@ The API can be served using your favorite frameworks, we offer pre-built connect
 
 Novu Cloud will make HTTP requests to your Edge Server during Workflow Execution, enabling you to resolve Content and Subscribers when needed.
 
-<Image>
+<img width="1381" alt="diagram" src="https://github.com/iampearceman/echo-nextjs/assets/63902456/bed7894e-a814-448c-a4f7-8d07393e54d9">
 
 ### Getting Started:
 
@@ -99,6 +99,7 @@ npx novu-labs@latest echo
 
 4. Follow the onboarding instruction
 
+<img width="1728" alt="Screenshot 2024-03-17 at 1 34 10" src="https://github.com/iampearceman/echo-nextjs/assets/63902456/38b0ab55-b7c9-429a-818e-2e8a84ea61c0">
 
 ### Usage
 
@@ -139,7 +140,7 @@ https://tidy-teeth-judge.loca.lt/api/echo = https://localhost:3000/api/echo
 
 6. Review the changes
 
-<image>
+<img width="1728" alt="Screenshot 2024-03-17 at 2 08 41" src="https://github.com/iampearceman/echo-nextjs/assets/63902456/6832ca3c-b2a5-49f8-a1c5-a7d5955589ab">
 
 7. Click on "Deploy Changes"
 
