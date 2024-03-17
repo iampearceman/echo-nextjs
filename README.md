@@ -31,36 +31,36 @@ Novu Cloud communicates with your edge server via HTTP requests, facilitating re
 
 - **Content Management:**
 
-Create and manage content using any framework like: 
-React Email, MJML, or a third party CMS (Wordpress, Hubspot, etc…).
+    Create and manage content using any framework like: 
+    React Email, MJML, or a third party CMS (Wordpress, Hubspot, etc…).
 
 - **GitOps for Notifications:**
 
-Define your Notification Workflows in code, and manage them using GitOps. 
-This enables you to version control your Notification Workflows, and collaborate with your team.
+    Define your Notification Workflows in code, and manage them using GitOps. 
+    This enables you to version control your Notification Workflows, and collaborate with your team.
 
 - **Durable step execution:**
 
-Workflow state and execution are managed by the Novu Platform, Echo restores and hydrates the Workflow state each time your Echo Client is invoked by Novu. 
-Echo handles the hard problems in Notifications for you.
+    Workflow state and execution are managed by the Novu Platform, Echo restores and hydrates the Workflow state each time your Echo Client is invoked by Novu. 
+    Echo handles the hard problems in Notifications for you.
 
 - **Idiomatic:** 
 
-Echo is designed with idiomatic programming practices in mind, making integration with your existing languages a seamless experience.
+    Echo is designed with idiomatic programming practices in mind, making integration with your existing languages a seamless experience.
 
 - **Type-safe & Schematised validation:**
 
-Bring your own schemas for full, end-to-end validation and type safety between your application and Novu.
-JSON Schema provides the interoperability layer between developers and component consumers, creating a contract for content management.
+    Bring your own schemas for full, end-to-end validation and type safety between your application and Novu.
+    JSON Schema provides the interoperability layer between developers and component consumers, creating a contract for content management.
 
 - **Framework agnostic:**
 
-The Echo API client is designed to run with your favourite Web framework. 
-We currently support NextJS and Express, with more coming soon.
+    The Echo API client is designed to run with your favourite Web framework. 
+    We currently support NextJS and Express, with more coming soon.
 
 - **"Bring Your Own Code":**
 
-Echo integrates with your existing codebase. Natively connect your database, APIs, and more directly into your Echo workflows. The possibilities are limitless.
+    Echo integrates with your existing codebase. Natively connect your database, APIs, and more directly into your Echo workflows. The possibilities are limitless.
 
 ### How it Works:
 
@@ -131,8 +131,9 @@ npx localtunnel --port 3000
 
 5. Paste the provided localtunnel port as an Echo API Endpoint.
 
-    example:
 ```bash
+// example:
+
 https://tidy-teeth-judge.loca.lt/api/echo = https://localhost:3000/api/echo
 ```
 
