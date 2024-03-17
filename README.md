@@ -8,7 +8,7 @@ Powered by Novu
 
 </div>
 
-### Table Of Content
+### Table of Contents
 
 - [What is Echo?](#what-is-echo)
 - [Core Features](#core-features)
