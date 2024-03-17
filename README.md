@@ -8,20 +8,15 @@ Powered by Novu
 
 </div>
 
-
-## Table of Contents
-
-- [What is Echo?](#what-is-echo?)
-- [Usage](#usage)
-  - [Run the website](#run-the-website)
-  - [Build the website](#build-the-website)
-  - [Run the built website](#run-the-built-website)
-  - [Clean Gatsby cache](#clean-gatsby-cache)
-- [Project Structure](#project-structure)
-- [Code Style](#code-style)
-  - [ESLint](#eslint)
-  - [Prettier](#prettier)
-  - [VS Code](#vs-code)
+### Table Of Content
+[What is Echo?](#what-is-echo)
+[Core Features](#core-features)
+[How it Works](#how-it-works)
+[Getting Started](#getting-started)
+[Usage](#usage)
+[Sync your local workflows with your Novu Account](#sync-your-local-workflows-with-your-novu-account)
+[Contributing](#contributing)
+[Support](#support)
 
 ### What is Echo?
 
