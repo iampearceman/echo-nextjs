@@ -1,5 +1,7 @@
-![Echo SDK](https://github.com/iampearceman/echo-nextjs/assets/63902456/e3ea2a84-9610-4a6e-bc33-b875ff4c90c9)
+<div align="center">
+![Echo](https://github.com/iampearceman/echo-nextjs/assets/63902456/48a44047-b732-4f86-a0aa-31a19d9b0215)
 **Powered by Movu**
+</div>
 
 **Echo is currently in Private Alpha mode, and API’s and interfaces are subject to change.**
 
