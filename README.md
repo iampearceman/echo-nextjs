@@ -9,14 +9,15 @@ Powered by Novu
 </div>
 
 ### Table Of Content
-[What is Echo?](#what-is-echo)
-[Core Features](#core-features)
-[How it Works](#how-it-works)
-[Getting Started](#getting-started)
-[Usage](#usage)
-[Sync your local workflows with your Novu Account](#sync-your-local-workflows-with-your-novu-account)
-[Contributing](#contributing)
-[Support](#support)
+
+- [What is Echo?](#what-is-echo)
+- [Core Features](#core-features)
+- [How it Works](#how-it-works)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Sync your local workflows with your Novu Account](#sync-your-local-workflows-with-your-novu-account)
+- [Contributing](#contributing)
+- [Support](#support)
 
 ### What is Echo?
 
