@@ -1,4 +1,4 @@
-# Novu Echo SDK
+![Echo SDK](https://github.com/iampearceman/echo-nextjs/assets/63902456/e3ea2a84-9610-4a6e-bc33-b875ff4c90c9)
 **Powered by Movu**
 
 **Echo is currently in Private Alpha mode, and API’s and interfaces are subject to change.**
